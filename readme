@@ -1,1 +1,2 @@
 fork from https://github.com/stepfun-ai/gelab-zero
+把项目中的提示此词工程改成function call，可以对接任何支持function call的视觉多模态模型。目前测试qwen3系列的多模态模型和glm4.6v运行良好。特别是glm4.6v，操作ui非常精准
