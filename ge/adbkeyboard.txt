@@ -1,0 +1,8 @@
+adb install ADBKeyboard.apk
+
+# 2. 启用ADBKeyboard输入法
+adb shell ime enable com.android.adbkeyboard/.AdbIME
+adb shell ime set com.android.adbkeyboard/.AdbIME
+
+# 3. 输入中文（或其他任何字符）
+adb shell am broadcast -a ADB_INPUT_TEXT --es msg "你好，世界！测试123@#$"
